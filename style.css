@@ -12,12 +12,43 @@
   box-sizing: border-box;
 }
 
-/* Typography */
+/* Typography  and Colors*/
 
 .item-title {
   text-transform: uppercase;
   font-family: "Big Shoulders Display", sans-serif;
 }
+
+a {
+  text-decoration: none;
+  background-color: var(--lightgray);
+  text-align: center;
+}
+
+p {
+  color: var(--transpwhite);
+  margin-bottom: 2em;
+}
+
+.item1 {
+  background-color: var(--brightorange);
+}
+.btn1 {
+  color: var(--brightorange);
+}
+.item2 {
+  background-color: var(--darkcyan);
+}
+.btn2 {
+  color: var(--darkcyan);
+}
+.item3 {
+  background-color: var(--verydarkcyan);
+}
+.btn3 {
+  color: var(--verydarkcyan);
+}
+
 
 /* Layout */
 
@@ -45,38 +76,14 @@ main {
   padding: 2.5em;
 }
 
-.item1 {
-  background-color: var(--brightorange);
-}
-.btn1 {
-  color: var(--brightorange);
-}
-.item2 {
-  background-color: var(--darkcyan);
-}
-.btn2 {
-  color: var(--darkcyan);
-}
-.item3 {
-  background-color: var(--verydarkcyan);
-}
-.btn3 {
-  color: var(--verydarkcyan);
-}
-
 button {
   padding: 1em 2em;
   border-radius: 20px;
   border: none;
 }
 
-a {
-  text-decoration: none;
-  background-color: var(--lightgray);
-  text-align: center;
-}
-
-p {
-  color: var(--transpwhite);
-  margin-bottom: 2em;
+@media (min-width: 860px){
+    main{
+        flex-direction: row;
+    }
 }
