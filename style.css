@@ -49,7 +49,6 @@ p {
   color: var(--verydarkcyan);
 }
 
-
 /* Layout */
 
 body {
@@ -82,8 +81,8 @@ button {
   border: none;
 }
 
-@media (min-width: 860px){
-    main{
-        flex-direction: row;
-    }
+@media (min-width: 860px) {
+  main {
+    flex-direction: row;
+  }
 }
