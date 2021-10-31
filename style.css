@@ -64,7 +64,7 @@ body {
 
 main {
   margin: 3em 1em;
-  max-width: 75%;
+  max-width: 915px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
